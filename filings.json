@@ -1,1 +1,36 @@
-{"abt": {"2023": "https://www.sec.gov/ix?doc=/Archives/edgar/data/1800/000162828023004026/abt-20221231.htm", "2022": "https://www.sec.gov/ix?doc=/Archives/edgar/data/1800/000110465922025141/abt-20211231x10k.htm", "2021": "https://www.sec.gov/ix?doc=/Archives/edgar/data/1800/000110465921025751/abt-20201231x10k.htm", "2020": "https://www.sec.gov/ix?doc=/Archives/edgar/data/1800/000110465920023904/abt-20191231x10k59d41b.htm", "2019": "https://www.sec.gov/Archives/edgar/data/1800/000104746919000624/a2237733z10-k.htm", "2018": "https://www.sec.gov/Archives/edgar/data/1800/000104746918000856/a2234264z10-k.htm", "2017": "https://www.sec.gov/Archives/edgar/data/1800/000104746917000744/a2230875z10-k.htm", "2016": "https://www.sec.gov/Archives/edgar/data/1800/000104746916010246/a2227279z10-k.htm", "2015": "https://www.sec.gov/Archives/edgar/data/1800/000104746915001377/a2222655z10-k.htm", "2014": "https://www.sec.gov/Archives/edgar/data/1800/000104746914001176/a2218043z10-k.htm", "2013": "https://www.sec.gov/Archives/edgar/data/1800/000104746913001180/a2212523z10-k.htm", "2012": "https://www.sec.gov/Archives/edgar/data/1800/000104746912001216/a2207147z10-k.htm", "2011": "https://www.sec.gov/Archives/edgar/data/1800/000104746911001056/a2201962z10-k.htm", "2010": "https://www.sec.gov/Archives/edgar/data/1800/000104746910001018/a2196380z10-k.htm", "2009": "https://www.sec.gov/Archives/edgar/data/1800/000104746909001642/a2188623z10-k.htm"}, "aapl": {"2023": "https://www.sec.gov/ix?doc=/Archives/edgar/data/320193/000032019323000106/aapl-20230930.htm", "2022": "https://www.sec.gov/ix?doc=/Archives/edgar/data/320193/000032019322000108/aapl-20220924.htm", "2021": "https://www.sec.gov/ix?doc=/Archives/edgar/data/320193/000032019321000105/aapl-20210925.htm", "2020": "https://www.sec.gov/ix?doc=/Archives/edgar/data/320193/000032019320000096/aapl-20200926.htm", "2019": "https://www.sec.gov/ix?doc=/Archives/edgar/data/320193/000032019319000119/a10-k20199282019.htm", "2018": "https://www.sec.gov/Archives/edgar/data/320193/000032019318000145/a10-k20189292018.htm", "2017": "https://www.sec.gov/Archives/edgar/data/320193/000032019317000070/a10-k20179302017.htm", "2016": "https://www.sec.gov/Archives/edgar/data/320193/000162828016020309/a201610-k9242016.htm", "2015": "https://www.sec.gov", "2014": "https://www.sec.gov/Archives/edgar/data/320193/000119312514383437/d783162d10k.htm", "2013": "https://www.sec.gov", "2012": "https://www.sec.gov", "2011": "https://www.sec.gov", "2010": "https://www.sec.gov", "2009": "https://www.sec.gov"}}
+{
+    "abt": {
+        "2023": "https://www.sec.gov/Archives/edgar/data/1800/000162828023004026/abt-20221231.htm",
+        "2022": "https://www.sec.gov/Archives/edgar/data/1800/000110465922025141/abt-20211231x10k.htm",
+        "2021": "https://www.sec.gov/Archives/edgar/data/1800/000110465921025751/abt-20201231x10k.htm",
+        "2020": "https://www.sec.gov/Archives/edgar/data/1800/000110465920023904/abt-20191231x10k59d41b.htm",
+        "2019": "https://www.sec.gov/Archives/edgar/data/1800/000104746919000624/a2237733z10-k.htm",
+        "2018": "https://www.sec.gov/Archives/edgar/data/1800/000104746918000856/a2234264z10-k.htm",
+        "2017": "https://www.sec.gov/Archives/edgar/data/1800/000104746917000744/a2230875z10-k.htm",
+        "2016": "https://www.sec.gov/Archives/edgar/data/1800/000104746916010246/a2227279z10-k.htm",
+        "2015": "https://www.sec.gov/Archives/edgar/data/1800/000104746915001377/a2222655z10-k.htm",
+        "2014": "https://www.sec.gov/Archives/edgar/data/1800/000104746914001176/a2218043z10-k.htm",
+        "2013": "https://www.sec.gov/Archives/edgar/data/1800/000104746913001180/a2212523z10-k.htm",
+        "2012": "https://www.sec.gov/Archives/edgar/data/1800/000104746912001216/a2207147z10-k.htm",
+        "2011": "https://www.sec.gov/Archives/edgar/data/1800/000104746911001056/a2201962z10-k.htm",
+        "2010": "https://www.sec.gov/Archives/edgar/data/1800/000104746910001018/a2196380z10-k.htm",
+        "2009": "https://www.sec.gov/Archives/edgar/data/1800/000104746909001642/a2188623z10-k.htm"
+    },
+    "aapl": {
+        "2023": "https://www.sec.gov/Archives/edgar/data/320193/000032019323000106/aapl-20230930.htm",
+        "2022": "https://www.sec.gov/Archives/edgar/data/320193/000032019322000108/aapl-20220924.htm",
+        "2021": "https://www.sec.gov/Archives/edgar/data/320193/000032019321000105/aapl-20210925.htm",
+        "2020": "https://www.sec.gov/Archives/edgar/data/320193/000032019320000096/aapl-20200926.htm",
+        "2019": "https://www.sec.gov/Archives/edgar/data/320193/000032019319000119/a10-k20199282019.htm",
+        "2018": "https://www.sec.gov/Archives/edgar/data/320193/000032019318000145/a10-k20189292018.htm",
+        "2017": "https://www.sec.gov/Archives/edgar/data/320193/000032019317000070/a10-k20179302017.htm",
+        "2016": "https://www.sec.gov/Archives/edgar/data/320193/000162828016020309/a201610-k9242016.htm",
+        "2015": "https://www.sec.gov/Archives/edgar/data/320193/000119312515356351/d17062d10k.htm",
+        "2014": "https://www.sec.gov/Archives/edgar/data/320193/000119312514383437/d783162d10k.htm",
+        "2013": "https://www.sec.gov/Archives/edgar/data/320193/000119312513416534/d590790d10k.htm",
+        "2012": "https://www.sec.gov/Archives/edgar/data/320193/000119312512444068/d411355d10k.htm",
+        "2011": "https://www.sec.gov/Archives/edgar/data/320193/000119312511282113/d220209d10k.htm",
+        "2010": "https://www.sec.gov/Archives/edgar/data/320193/000119312510012091/d10ka.htm",
+        "2009": "https://www.sec.gov/Archives/edgar/data/320193/000119312509214859/d10k.htm"
+    }
+}

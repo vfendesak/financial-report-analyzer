@@ -96,7 +96,7 @@ class Scraper:
             filings_response = self.request_filings(filings_url)
             filing_page_soup = BeautifulSoup(filings_response.text, "html.parser")
             for doc_link in filing_page_soup.find_all("a"):
-                if doc_link.text.startswith(ticker):
+                if doc_link.text.startswith(self.ticker):
                     doc_href = doc_link["href"]
                     download_url = f"https://www.sec.gov{doc_href}"
                     filings[year] = "".join(download_url.split(".xml")).replace(
@@ -104,17 +104,18 @@ class Scraper:
                     )
         return filings
 
-    def get_doc_href(self, findings):
-        a = 0
-        doc_href = ""
-        for i in findings:
-            a += 1
-            if i.text == "10-K":
-                try:
-                    doc_href = findings[a].find("a")["href"]
-                except Exception:
-                    continue
-        return doc_href
+    def get_doc_href(self, archive_soup):
+        rows = archive_soup.find_all("tr")
+
+        ten_k_url = ""
+
+        for row in rows:
+            cols = row.find_all("td")
+            if len(cols) > 3:
+                doc_type = cols[3].text.strip()
+                if "10-K" in doc_type:
+                    ten_k_url = cols[2].find("a")["href"]
+        return ten_k_url
 
     def fetch_filings(self, archive_urls):
         filings = {}
@@ -122,12 +123,15 @@ class Scraper:
             filings_url = value["filings_url"]
 
             filings_response = self.request_filings(filings_url)
-            filing_page_soup = BeautifulSoup(filings_response.text, "html.parser")
-            findings = filing_page_soup.find_all("td")
-            doc_href = self.get_doc_href(findings)
-            download_url = f"https://www.sec.gov{doc_href}"
-            filings[year] = "".join(download_url.split(".xml")).replace("_htm", ".htm")
+            archive_soup = BeautifulSoup(filings_response.text, "html.parser")
 
+            doc_href = self.get_doc_href(archive_soup)
+            download_url = f"https://www.sec.gov{doc_href}"
+            filings[year] = (
+                "".join(download_url.split(".xml"))
+                .replace("_htm", ".htm")
+                .replace("ix?doc=/", "")
+            )
         return filings
 
     def get_10k_filings(self, ticker):

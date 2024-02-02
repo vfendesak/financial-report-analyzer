@@ -3,11 +3,12 @@ from scraping import Scraper
 import json
 from tqdm import tqdm
 
+
 def load_tickers():
     return ["abt", "aapl"]
 
-def main():
 
+def main():
     tickers = load_tickers()
     scraper = Scraper(tickers)
 
