@@ -1,4 +1,19 @@
-beautifulsoup4==4.12.3
-Requests==2.31.0
-tqdm==4.66.1
+# Data Manipulation
+numpy==1.26.3
+pandas==2.2.0
+
+# Data Base
+psycopg2-binary==2.9.9
+SQLAlchemy==2.0.25
+
+# LLM
+torch==2.2.0
 transformers==4.37.2
+
+# Requests
+Requests==2.31.0
+beautifulsoup4==4.12.3
+
+# Utils
+tqdm==4.66.1
+lxml==5.1.0
