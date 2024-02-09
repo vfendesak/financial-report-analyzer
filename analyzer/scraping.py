@@ -1,6 +1,7 @@
+from datetime import date
+
 import requests
 from bs4 import BeautifulSoup
-from datetime import date
 
 
 class Scraper:
@@ -40,9 +41,7 @@ class Scraper:
             "Upgrade-Insecure-Requests": "1",
             "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36",
         }
-        return requests.request(
-            "GET", base_url, data=payload, headers=headers, params=querystring
-        )
+        return requests.request("GET", base_url, data=payload, headers=headers, params=querystring)
 
     def request_filings(self, filings_url):
         payload = ""
@@ -99,9 +98,7 @@ class Scraper:
                 if doc_link.text.startswith(self.ticker):
                     doc_href = doc_link["href"]
                     download_url = f"https://www.sec.gov{doc_href}"
-                    filings[year] = "".join(download_url.split(".xml")).replace(
-                        "_htm", ".htm"
-                    )
+                    filings[year] = "".join(download_url.split(".xml")).replace("_htm", ".htm")
         return filings
 
     def get_doc_href(self, archive_soup):
@@ -128,9 +125,7 @@ class Scraper:
             doc_href = self.get_doc_href(archive_soup)
             download_url = f"https://www.sec.gov{doc_href}"
             filings[year] = (
-                "".join(download_url.split(".xml"))
-                .replace("_htm", ".htm")
-                .replace("ix?doc=/", "")
+                "".join(download_url.split(".xml")).replace("_htm", ".htm").replace("ix?doc=/", "")
             )
         return filings
 
@@ -138,3 +133,26 @@ class Scraper:
         archive = self.request_archive(ticker)
         archive_urls = self.fetch_filing_urls(archive)
         return self.fetch_filings(archive_urls)
+
+    def fetch_report(self, report_url: str):
+        payload = ""
+        headers = {
+            "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8",
+            "Accept-Encoding": "gzip, deflate, br",
+            "Accept-Language": "en-US,en;q=0.9",
+            "Cache-Control": "max-age=0",
+            "Cookie": "bm_mi=2F5AC7DBEC90CA72B7048BFB724142E4~YAAQVCR+aDfBglWNAQAAXdbhXxZRJ4RnkkNmfKWUeKc1QmGH7v3TlPngbOdNdESvidaNFbsxYRDuqNOeHf7o1570sBMa6264ltivVUhPKdRHSGYpVZ2XMWAD/nsmFsSdGcaKYGWMYw5uwfMf/PBPBlZjEQFik5jnd6rWMARaXnpOcYh9njmeVVV519UStSmkmZI5vOvjdoluWej0Z2CxX3Tvw6lNgc1tGVpPsmufVg31H7mrJXYEd2r8dgK/8ByPdjyyHV9vmHGVXWgtIYQEPdFuSZTZcKKd+BnNxBwJMemL5bYVUglFp1bWgOrjeN1N3ix8AELEMXzUgBOh3O3bOm20cMppfRlldfsle3K8Ih4OPhQV7X2gCBWcP/IF9xpVVVUCvbQc36+ZPkQeYwCpp1ZbDy4=~1; bm_sv=6FE42A06849FED4835CF97262309E48E~YAAQVCR+aELBglWNAQAA9N3hXxbgrPGTXP4dLr20mIrEPGqqt/fAg73yGCttn0ty9QTvryHyxJIj5/Xk9bdr1pg+N8DKmsja3McwAOPL66B3PbRpOXDni0I/7hj2onuFL1tySgSQdD5H2wbu2hHzLereVi/obIf/64d3G6DMRmi21FiZaZXw0bKx8Dcbey35f4/a0B3//5sv5dyHH022pza3IR0waWQFv9Up4U5Z1kAbE6dcCBfgw81JPrQ0CA==~1; ak_bmsc=A56127CD072C24354C54D9D888F73150~000000000000000000000000000000~YAAQVCR+aB3CglWNAQAAPE7iXxZxAH8EfBgLMoBK20p82jHscZyuohv2ZDf4igBKSFrl/lk2WxTlHBCZjxlNf0g7+4qhiHtb+iiwCO6dsttHAG4aLtjhcRUqGypjDKB5LdHa2gdTTYL6d+zDand7hgzuYEMTmjSlIXjsdiIpL5cRkkkc62gsj4VYGbKiS7sXf8ZJrpwcTVflEsete1zfSn9uR5h8ydDbzbLPj/YOTNBCNU2lE61l66SPhy3c3LkvFWNB33V1iZVX/r7AqomFCHZQrZiEejEOczLuLEfLyEE/ol0OlL5UgHM/KIfQtfG7xhej2JoGiKzIBRyzQT7iChekHOjlzZgF0IvCURxPvw4bLD14OlSOsh9QYMBkH6MEs8csRoOCbuBdYFKkXESQ+dC0QkyTlDgDbzv61UZ6u/Tzsp3AlkDvWHW2FLNVdZE8G47QP0auueW3sMi84Y3n4reVALhIZUHywXQ6w4F4K3P3fQwcU+F/qOFevEsQU60mNxbPeEc=",
+            "If-Modified-Since": "Fri, 22 Feb 2019 21 17:19 GMT",
+            "Sec-Ch-Ua": '"Not A(Brand";v="99", "Brave";v="121", "Chromium";v="121"',
+            "Sec-Ch-Ua-Mobile": "?0",
+            "Sec-Ch-Ua-Platform": '"macOS"',
+            "Sec-Fetch-Dest": "document",
+            "Sec-Fetch-Mode": "navigate",
+            "Sec-Fetch-Site": "none",
+            "Sec-Fetch-User": "?1",
+            "Sec-Gpc": "1",
+            "Upgrade-Insecure-Requests": "1",
+            "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36",
+        }
+
+        return requests.request("GET", report_url, data=payload, headers=headers)

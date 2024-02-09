@@ -1,0 +1,156 @@
+{
+    "abt": {
+        "2023": {
+            "environmental": 0.0,
+            "social": 0.0,
+            "governance": 0.06
+        },
+        "2022": {
+            "environmental": 0.02,
+            "social": 0.0,
+            "governance": 0.0
+        },
+        "2021": {
+            "environmental": 0.02,
+            "social": 0.0,
+            "governance": 0.0
+        },
+        "2020": {
+            "environmental": 0.02,
+            "social": 0.0,
+            "governance": 0.0
+        },
+        "2019": {
+            "environmental": 0.0,
+            "social": 0.0,
+            "governance": 0.02
+        },
+        "2018": {
+            "environmental": 0.0,
+            "social": 0.0,
+            "governance": 0.02
+        },
+        "2017": {
+            "environmental": 0.0,
+            "social": 0.0,
+            "governance": 0.0
+        },
+        "2016": {
+            "environmental": 0.0,
+            "social": 0.0,
+            "governance": 0.0
+        },
+        "2015": {
+            "environmental": 0.0,
+            "social": 0.0,
+            "governance": 0.0
+        },
+        "2014": {
+            "environmental": 0.0,
+            "social": 0.0,
+            "governance": 0.0
+        },
+        "2013": {
+            "environmental": 0.0,
+            "social": 0.0,
+            "governance": 0.0
+        },
+        "2012": {
+            "environmental": 0.0,
+            "social": 0.0,
+            "governance": 0.0
+        },
+        "2011": {
+            "environmental": 0.0,
+            "social": 0.0,
+            "governance": 0.0
+        },
+        "2010": {
+            "environmental": 0.0,
+            "social": 0.0,
+            "governance": 0.0
+        },
+        "2009": {
+            "environmental": 0.0,
+            "social": 0.0,
+            "governance": 0.0
+        }
+    },
+    "aapl": {
+        "2023": {
+            "environmental": 0.02,
+            "social": 0.0,
+            "governance": 0.04
+        },
+        "2022": {
+            "environmental": 0.02,
+            "social": 0.0,
+            "governance": 0.04
+        },
+        "2021": {
+            "environmental": 0.02,
+            "social": 0.0,
+            "governance": 0.04
+        },
+        "2020": {
+            "environmental": 0.02,
+            "social": 0.0,
+            "governance": 0.04
+        },
+        "2019": {
+            "environmental": 0.02,
+            "social": 0.0,
+            "governance": 0.0
+        },
+        "2018": {
+            "environmental": NaN,
+            "social": NaN,
+            "governance": NaN
+        },
+        "2017": {
+            "environmental": NaN,
+            "social": NaN,
+            "governance": NaN
+        },
+        "2016": {
+            "environmental": NaN,
+            "social": NaN,
+            "governance": NaN
+        },
+        "2015": {
+            "environmental": 0.02,
+            "social": 0.0,
+            "governance": 0.02
+        },
+        "2014": {
+            "environmental": 0.02,
+            "social": 0.0,
+            "governance": 0.02
+        },
+        "2013": {
+            "environmental": 0.02,
+            "social": 0.0,
+            "governance": 0.02
+        },
+        "2012": {
+            "environmental": 0.02,
+            "social": 0.0,
+            "governance": 0.0
+        },
+        "2011": {
+            "environmental": 0.02,
+            "social": 0.0,
+            "governance": 0.0
+        },
+        "2010": {
+            "environmental": 0.02,
+            "social": 0.0,
+            "governance": 0.0
+        },
+        "2009": {
+            "environmental": 0.02,
+            "social": 0.0,
+            "governance": 0.0
+        }
+    }
+}
