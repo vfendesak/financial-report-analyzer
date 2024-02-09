@@ -1,5 +1,5 @@
 <div align="center">
-  <h1>Financial Report Analysis (FRA)</h1>
+  <h1>Financial Report Analyzer (FRA)</h1>
 </div>
 
 This repo intends to fetch and analyze annual reports in terms of their ESG-related contents.
