@@ -5,8 +5,7 @@ from bs4 import BeautifulSoup
 
 
 class Scraper:
-    def __init__(self, ticker, YEARS_BACK=15):
-        self.ticker = ticker
+    def __init__(self, YEARS_BACK=15):
         self.current_year = date.today().year
         self.YEARS_BACK = YEARS_BACK
 

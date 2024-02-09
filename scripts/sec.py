@@ -10,7 +10,7 @@ from analyzer.utils import load_tickers
 
 def main():
     tickers = load_tickers()
-    scraper = Scraper(tickers)
+    scraper = Scraper()
 
     def load_filings():
         with open(Path(__file__).parent.parent / "filings.json", "r") as f:
