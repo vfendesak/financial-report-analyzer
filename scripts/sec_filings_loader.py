@@ -4,26 +4,20 @@ from pathlib import Path
 
 from tqdm import tqdm
 
-from analyzer.scraping import Scraper
-from analyzer.utils import load_tickers
+from financial_report_analyzer.scraping import SECScraper
+from financial_report_analyzer.utils import load_filings, load_tickers
 
 
 def main():
     tickers = load_tickers()
-    scraper = Scraper()
-
-    def load_filings():
-        with open(Path(__file__).parent.parent / "filings.json", "r") as f:
-            filings = json.load(f)
-        return filings
-
     existing_filings = load_filings()
+    sec_scraper = SECScraper()
 
     filings = {}
 
-    for ticker in tqdm(tickers[69:], ncols=60):
+    for ticker in tqdm(tickers, ncols=60):
         try:
-            filings[ticker] = scraper.get_10k_filings(ticker)
+            filings[ticker] = sec_scraper.get_10k_filings(ticker)
             time.sleep(1)
         except Exception:
             filings[ticker] = {}

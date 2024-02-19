@@ -41,29 +41,3 @@ class TextExtractor:
     #     if len(sentences) == 0:
     #         sentences = extract_sentences(report, parser="html.parser", pattern="p")
     #     return sentences
-
-
-# class ReportAnalyzer:
-#     def __init__(self, sentences):
-#         self.sentences = sentences
-
-#     def analyze_texts(sentences: list, env_pipe, soc_pipe, gov_pipe) -> pd.DataFrame:
-#         env = env_pipe(sentences, padding=True, truncation=True)
-#         soc = soc_pipe(sentences, padding=True, truncation=True)
-#         gov = gov_pipe(sentences, padding=True, truncation=True)
-
-#         env_labels = [x["label"] for x in env]
-#         soc_labels = [x["label"] for x in soc]
-#         gov_labels = [x["label"] for x in gov]
-
-#         return {
-#             "environmental": env_labels,
-#             "social": soc_labels,
-#             "governance": gov_labels,
-#         }
-
-#     def convert_output(x):
-#         d = {"none": 0}
-#         if x in d:
-#             return d[x]
-#         return 1

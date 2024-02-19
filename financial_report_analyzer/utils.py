@@ -1,11 +1,10 @@
+import json
 from pathlib import Path
 
 import pandas as pd
 import yaml
-from sqlalchemy import create_engine
 
 DEFAULTS_PATH = Path(__file__).parent / "defaults"
-DB_PATH = "postgresql://postgres:test@localhost:5432/esg"
 
 
 def load_ticker_data():
@@ -19,6 +18,12 @@ def load_tickers():
     return list(ticker_data.keys())
 
 
+def load_filings():
+    with open(Path(__file__).parent.parent / "filings.json", "r") as f:
+        filings = json.load(f)
+    return filings
+
+
 def create_filings_table(filings):
     rows = []
     for ticker, years in filings.items():
@@ -28,15 +33,3 @@ def create_filings_table(filings):
             rows.append(row)
 
     return pd.DataFrame(rows)
-
-
-class Connector:
-    def __init__(self):
-        self.engine = create_engine(DB_PATH)
-
-    def fetch_data(self, table="scores") -> pd.DataFrame:
-        return pd.read_sql_table(table, self.engine, index_col="id")
-
-    def store_scores(self, df, table="sec") -> None:
-        df.to_sql("sec", self.engine, if_exists="append", index=False)
-        return None

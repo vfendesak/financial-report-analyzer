@@ -2,7 +2,7 @@
 numpy==1.26.3
 pandas==2.2.0
 
-# Data Base
+# Database
 psycopg2-binary==2.9.9
 SQLAlchemy==2.0.25
 
