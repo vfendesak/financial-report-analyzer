@@ -14,48 +14,30 @@ The annual reports are fetched from the [SEC Edgar database](https://www.sec.gov
 
 ### Python Setup
 
-Create virtual environment and activate it.
+    make setup
 
-    python -m venv venv
+#### Optional: Create a Jupyter Kernel
 
-    source venv/bin/activate
-
-Install the requirements.
-
-    pip install -r requirements.txt
-
-Install this repo as a package locally.
-
-    pip install -e .
-
-Optional: Create a jupyter kernel
-
-    pip install ipykernel
-
-    python -m ipykernel install --user --name financial-report-analyzer
-
+    make kernel
 
 ### Database Setup
 
-Pull Postgres image.
+    POSTGRES_PASSWORD=mysecretpassword make database
 
-    docker pull postgres
+ Set the database password accordingly in the [database connector](financial_report_analyzer/database_connector.py) DB PATH constant:
 
-Run Postgres Container.
-
-    docker run --name some-postgres -e POSTGRES_PASSWORD=mysecretpassword -p 5432:5432 -d postgres
-
- Set the database credentials accordingly in the [database connector](financial_report_analyzer/database_connector.py).
-
+ ```python
+DB_PASSWORD = "mysecretpassword"
+```
 
 # Usage
 
-### Fetch filings URLs
+### Fetch Filings URLs
 Fetch the report URLs for the annual report 10-K filings of the [default tickers](financial_report_analyzer/defaults/tickery.yaml).
 
-    python scripts/sec_filings_loader.py
+    make filings
 
-### Analyze the filings
+### Analyze the Filings
 Analyze the reports. This feature is currently performed in the [Filing Analyzer Notebook](notebooks/filing_analyzer.ipynb). In the future this will also be an executable.
 
 
@@ -77,4 +59,3 @@ AAPL:
 ```
 
 The name and weight are currently not required but will be used for further analysis.
-

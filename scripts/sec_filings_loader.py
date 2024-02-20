@@ -1,16 +1,14 @@
 import json
 import time
-from pathlib import Path
 
 from tqdm import tqdm
 
 from financial_report_analyzer.scraping import SECScraper
-from financial_report_analyzer.utils import load_filings, load_tickers
+from financial_report_analyzer.utils import load_tickers
 
 
 def main():
     tickers = load_tickers()
-    existing_filings = load_filings()
     sec_scraper = SECScraper()
 
     filings = {}
@@ -23,10 +21,8 @@ def main():
             filings[ticker] = {}
             continue
 
-    existing_filings.update(filings)
-
     with open("filings.json", "w") as f:
-        json.dump(existing_filings, f)
+        json.dump(filings, f)
 
 
 if __name__ == "__main__":

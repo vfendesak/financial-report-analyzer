@@ -1,7 +1,8 @@
 import pandas as pd
 from sqlalchemy import create_engine
 
-DB_PATH = "postgresql://postgres:test@localhost:5432/esg"
+DB_PASSWORD = "test"
+DB_PATH = f"postgresql://postgres:{DB_PASSWORD}@localhost:5432/esg"
 DEFAULT_TABLE = "scores"
 
 
