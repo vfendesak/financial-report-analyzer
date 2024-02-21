@@ -33,7 +33,7 @@ DB_PASSWORD = "mysecretpassword"
 # Usage
 
 ### Fetch Filings URLs
-Fetch the report URLs for the annual report 10-K filings of the [default tickers](financial_report_analyzer/defaults/tickery.yaml).
+Fetch the report URLs for the annual report 10-K filings of the [default tickers](financial_report_analyzer/defaults/tickers.yaml).
 
     make filings
 
@@ -44,7 +44,7 @@ Analyze the reports. This feature is currently performed in the [Filing Analyzer
 # Configuration
 
 At the moment, only SEC filings can be analyzed, hence only US stocks. This will be expanded to European stocks in the future.
-The tickers can be set in the [default tickers](financial_report_analyzer/defaults/tickery.yaml).
+The tickers can be set in the [default tickers](financial_report_analyzer/defaults/tickers.yaml).
 
 ```yaml
 A:
