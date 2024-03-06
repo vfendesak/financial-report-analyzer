@@ -7,19 +7,19 @@ import yaml
 DEFAULTS_PATH = Path(__file__).parent / "defaults"
 
 
-def load_ticker_data():
-    with open(DEFAULTS_PATH / "tickers.yaml", "r") as f:
+def load_ticker_data(tickers_name):
+    with open(DEFAULTS_PATH / f"{tickers_name}.yaml", "r") as f:
         ticker_data = yaml.load(f, Loader=yaml.FullLoader)
     return ticker_data
 
 
-def load_tickers():
-    ticker_data = load_ticker_data()
+def load_tickers(tickers_name):
+    ticker_data = load_ticker_data(tickers_name)
     return list(ticker_data.keys())
 
 
-def load_filings():
-    with open(Path(__file__).parent.parent / "filings.json", "r") as f:
+def load_filings(tickers_name):
+    with open(Path(__file__).parent.parent / f"{tickers_name}.yaml", "r") as f:
         filings = json.load(f)
     return filings
 

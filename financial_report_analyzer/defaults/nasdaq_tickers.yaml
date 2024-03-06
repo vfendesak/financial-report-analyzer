@@ -1,0 +1,505 @@
+AAPL:
+  date: 2024-03-05
+  last_sale: '172.48'
+  market_cap: '2703873363100'
+  name: Apple Inc Common Stock
+ABNB:
+  date: 2024-03-05
+  last_sale: '156.10'
+  market_cap: '102294453522'
+  name: Airbnb. Inc Class A Common Stock
+ADBE:
+  date: 2024-03-05
+  last_sale: '562.31'
+  market_cap: '256708880000'
+  name: Adobe Inc Common Stock
+ADI:
+  date: 2024-03-05
+  last_sale: '194.66'
+  market_cap: '96533480479'
+  name: Analog Devices. Inc Common Stock
+ADP:
+  date: 2024-03-05
+  last_sale: '246.20'
+  market_cap: '101136637595'
+  name: Automatic Data Processing. Inc Common Stock
+ADSK:
+  date: 2024-03-05
+  last_sale: '258.00'
+  market_cap: '55767725228'
+  name: Autodesk. Inc Common Stock
+AEP:
+  date: 2024-03-05
+  last_sale: '84.95'
+  market_cap: '44699380496'
+  name: American Electric Power Company. Inc Common Stock
+AMAT:
+  date: 2024-03-05
+  last_sale: '206.14'
+  market_cap: '174064687108'
+  name: Applied Materials. Inc Common Stock
+AMD:
+  date: 2024-03-05
+  last_sale: '198.86'
+  market_cap: '331817985668'
+  name: Advanced Micro Devices. Inc Common Stock
+AMGN:
+  date: 2024-03-05
+  last_sale: '279.39'
+  market_cap: '149730381750'
+  name: Amgen Inc Common Stock
+AMZN:
+  date: 2024-03-05
+  last_sale: '176.42'
+  market_cap: '1844591169656'
+  name: Amazoncom. Inc Common Stock
+ANSS:
+  date: 2024-03-05
+  last_sale: '340.48'
+  market_cap: '29627822927'
+  name: ANSYS. Inc Common Stock
+ASML:
+  date: 2024-03-05
+  last_sale: '989.04'
+  market_cap: '392650614427'
+  name: ASML Holding NV New York Registry Shares
+AVGO:
+  date: 2024-03-05
+  last_sale: 1.383.70
+  market_cap: '656454794286'
+  name: Broadcom Inc Common Stock
+AZN:
+  date: 2024-03-05
+  last_sale: '64.37'
+  market_cap: '200873534418'
+  name: AstraZeneca PLC American Depositary Shares
+BIIB:
+  date: 2024-03-05
+  last_sale: '221.00'
+  market_cap: '32127643574'
+  name: Biogen Inc Common Stock
+BKNG:
+  date: 2024-03-05
+  last_sale: 3.461.40
+  market_cap: '118279592858'
+  name: Booking Holdings Inc Common Stock
+BKR:
+  date: 2024-03-05
+  last_sale: '29.43'
+  market_cap: '29455939779'
+  name: Baker Hughes Company Class A Common Stock
+CCEP:
+  date: 2024-03-05
+  last_sale: '69.54'
+  market_cap: '31908164122'
+  name: Coca-Cola Europacific Partners plc Ordinary Shares
+CDNS:
+  date: 2024-03-05
+  last_sale: '313.35'
+  market_cap: '86384157090'
+  name: Cadence Design Systems. Inc Common Stock
+CDW:
+  date: 2024-03-05
+  last_sale: '246.67'
+  market_cap: '33106843404'
+  name: CDW Corporation Common Stock
+CEG:
+  date: 2024-03-05
+  last_sale: '175.99'
+  market_cap: '55730144023'
+  name: Constellation Energy Corporation Common Stock
+CHTR:
+  date: 2024-03-05
+  last_sale: '279.20'
+  market_cap: '40526616589'
+  name: Charter Communications. Inc Class A Common Stock New
+CMCSA:
+  date: 2024-03-05
+  last_sale: '41.80'
+  market_cap: '166222229637'
+  name: Comcast Corporation Class A Common Stock
+COST:
+  date: 2024-03-05
+  last_sale: '759.62'
+  market_cap: '336947057546'
+  name: Costco Wholesale Corporation Common Stock
+CPRT:
+  date: 2024-03-05
+  last_sale: '54.10'
+  market_cap: '52015085003'
+  name: Copart. Inc (DE) Common Stock
+CRWD:
+  date: 2024-03-05
+  last_sale: '306.00'
+  market_cap: '75359842198'
+  name: CrowdStrike Holdings. Inc Class A Common Stock
+CSCO:
+  date: 2024-03-05
+  last_sale: '49.14'
+  market_cap: '198936561240'
+  name: Cisco Systems. Inc Common Stock (DE)
+CSGP:
+  date: 2024-03-05
+  last_sale: '88.59'
+  market_cap: '36180981747'
+  name: CoStar Group. Inc Common Stock
+CSX:
+  date: 2024-03-05
+  last_sale: '38.38'
+  market_cap: '75191576046'
+  name: CSX Corporation Common Stock
+CTAS:
+  date: 2024-03-05
+  last_sale: '629.24'
+  market_cap: '63786961759'
+  name: Cintas Corporation Common Stock
+CTSH:
+  date: 2024-03-05
+  last_sale: '79.08'
+  market_cap: '39369347891'
+  name: Cognizant Technology Solutions Corporation Class A Common Stock
+DASH:
+  date: 2024-03-05
+  last_sale: '130.59'
+  market_cap: '53490157536'
+  name: DoorDash. Inc Class A Common Stock
+DDOG:
+  date: 2024-03-05
+  last_sale: '129.50'
+  market_cap: '43365989562'
+  name: Datadog. Inc Class A Common Stock
+DLTR:
+  date: 2024-03-05
+  last_sale: '146.42'
+  market_cap: '31900809016'
+  name: Dollar Tree Inc Common Stock
+DXCM:
+  date: 2024-03-05
+  last_sale: '122.30'
+  market_cap: '47148535988'
+  name: DexCom. Inc Common Stock
+EA:
+  date: 2024-03-05
+  last_sale: '138.86'
+  market_cap: '37110917491'
+  name: Electronic Arts Inc Common Stock
+EXC:
+  date: 2024-03-05
+  last_sale: '36.20'
+  market_cap: '36183295220'
+  name: Exelon Corporation Common Stock
+FANG:
+  date: 2024-03-05
+  last_sale: '178.89'
+  market_cap: '31922309233'
+  name: Diamondback Energy. Inc Common Stock
+FAST:
+  date: 2024-03-05
+  last_sale: '74.79'
+  market_cap: '42797287746'
+  name: Fastenal Company Common Stock
+FTNT:
+  date: 2024-03-05
+  last_sale: '70.98'
+  market_cap: '54472779378'
+  name: Fortinet. Inc Common Stock
+GEHC:
+  date: 2024-03-05
+  last_sale: '92.73'
+  market_cap: '42225275845'
+  name: GE HealthCare Technologies Inc Common Stock
+GFS:
+  date: 2024-03-05
+  last_sale: '54.07'
+  market_cap: '29918651200'
+  name: GlobalFoundries Inc Ordinary Shares
+GILD:
+  date: 2024-03-05
+  last_sale: '72.25'
+  market_cap: '90007216006'
+  name: Gilead Sciences. Inc Common Stock
+GOOG:
+  date: 2024-03-05
+  last_sale: '133.69'
+  market_cap: '1668508600000'
+  name: Alphabet Inc Class C Capital Stock
+GOOGL:
+  date: 2024-03-05
+  last_sale: '132.80'
+  market_cap: '1657940550000'
+  name: Alphabet Inc Class A Common Stock
+HON:
+  date: 2024-03-05
+  last_sale: '199.24'
+  market_cap: '129940704223'
+  name: Honeywell International Inc Common Stock
+IDXX:
+  date: 2024-03-05
+  last_sale: '571.25'
+  market_cap: '47467301578'
+  name: IDEXX Laboratories. Inc Common Stock
+ILMN:
+  date: 2024-03-05
+  last_sale: '137.70'
+  market_cap: '21880530000'
+  name: Illumina. Inc Common Stock
+INTC:
+  date: 2024-03-05
+  last_sale: '44.99'
+  market_cap: '192839080000'
+  name: Intel Corporation Common Stock
+INTU:
+  date: 2024-03-05
+  last_sale: '663.73'
+  market_cap: '187140763390'
+  name: Intuit Inc Common Stock
+ISRG:
+  date: 2024-03-05
+  last_sale: '398.61'
+  market_cap: '141138217459'
+  name: Intuitive Surgical. Inc Common Stock
+KDP:
+  date: 2024-03-05
+  last_sale: '29.10'
+  market_cap: '40378898391'
+  name: Keurig Dr Pepper Inc Common Stock
+KHC:
+  date: 2024-03-05
+  last_sale: '35.15'
+  market_cap: '42507016536'
+  name: The Kraft Heinz Company Common Stock
+KLAC:
+  date: 2024-03-05
+  last_sale: '707.20'
+  market_cap: '97072067024'
+  name: KLA Corporation Common Stock
+LRCX:
+  date: 2024-03-05
+  last_sale: '964.20'
+  market_cap: '128155804560'
+  name: Lam Research Corporation Common Stock
+LULU:
+  date: 2024-03-05
+  last_sale: '449.01'
+  market_cap: '54579302781'
+  name: lululemon athletica inc Common Stock
+MAR:
+  date: 2024-03-05
+  last_sale: '247.42'
+  market_cap: '71624462328'
+  name: Marriott International Class A Common Stock
+MCHP:
+  date: 2024-03-05
+  last_sale: '85.57'
+  market_cap: '46970520527'
+  name: Microchip Technology Incorporated Common Stock
+MDB:
+  date: 2024-03-05
+  last_sale: '431.01'
+  market_cap: '31685982204'
+  name: MongoDB. Inc Class A Common Stock
+MDLZ:
+  date: 2024-03-05
+  last_sale: '71.38'
+  market_cap: '96286599661'
+  name: Mondelez International. Inc Class A Common Stock
+MELI:
+  date: 2024-03-05
+  last_sale: 1.546.55
+  market_cap: '79092065315'
+  name: MercadoLibre. Inc Common Stock
+META:
+  date: 2024-03-05
+  last_sale: '494.43'
+  market_cap: '1270088129758'
+  name: Meta Platforms. Inc Class A Common Stock
+MNST:
+  date: 2024-03-05
+  last_sale: '58.50'
+  market_cap: '60877219748'
+  name: Monster Beverage Corporation
+MRNA:
+  date: 2024-03-05
+  last_sale: '94.50'
+  market_cap: '36679027968'
+  name: Moderna. Inc Common Stock
+MRVL:
+  date: 2024-03-05
+  last_sale: '77.67'
+  market_cap: '68598075000'
+  name: Marvell Technology. Inc Common Stock
+MSFT:
+  date: 2024-03-05
+  last_sale: '412.95'
+  market_cap: '3083036600137'
+  name: Microsoft Corporation Common Stock
+MU:
+  date: 2024-03-05
+  last_sale: '94.20'
+  market_cap: '105721353438'
+  name: Micron Technology. Inc Common Stock
+NFLX:
+  date: 2024-03-05
+  last_sale: '613.25'
+  market_cap: '266506334615'
+  name: Netflix. Inc Common Stock
+NVDA:
+  date: 2024-03-05
+  last_sale: '837.60'
+  market_cap: '2130925000000'
+  name: NVIDIA Corporation Common Stock
+NXPI:
+  date: 2024-03-05
+  last_sale: '253.28'
+  market_cap: '65217589818'
+  name: NXP Semiconductors NV Common Stock
+ODFL:
+  date: 2024-03-05
+  last_sale: '446.23'
+  market_cap: '48566399660'
+  name: Old Dominion Freight Line. Inc Common Stock
+'ON':
+  date: 2024-03-05
+  last_sale: '79.45'
+  market_cap: '34135012722'
+  name: ON Semiconductor Corporation Common Stock
+ORLY:
+  date: 2024-03-05
+  last_sale: 1.077.98
+  market_cap: '63640257898'
+  name: O'Reilly Automotive. Inc Common Stock
+PANW:
+  date: 2024-03-05
+  last_sale: '292.00'
+  market_cap: '96749064000'
+  name: Palo Alto Networks. Inc Common Stock
+PAYX:
+  date: 2024-03-05
+  last_sale: '122.34'
+  market_cap: '44020602193'
+  name: Paychex. Inc Common Stock
+PCAR:
+  date: 2024-03-05
+  last_sale: '112.29'
+  market_cap: '58826898090'
+  name: PACCAR Inc Common Stock
+PDD:
+  date: 2024-03-05
+  last_sale: '121.30'
+  market_cap: '167686777748'
+  name: PDD Holdings Inc American Depositary Shares
+PEP:
+  date: 2024-03-05
+  last_sale: '165.21'
+  market_cap: '227289368545'
+  name: PepsiCo. Inc Common Stock
+PYPL:
+  date: 2024-03-05
+  last_sale: '59.30'
+  market_cap: '64283077003'
+  name: PayPal Holdings. Inc Common Stock
+QCOM:
+  date: 2024-03-05
+  last_sale: '165.36'
+  market_cap: '185880960000'
+  name: QUALCOMM Incorporated Common Stock
+REGN:
+  date: 2024-03-05
+  last_sale: '971.19'
+  market_cap: '106599655776'
+  name: Regeneron Pharmaceuticals. Inc Common Stock
+ROP:
+  date: 2024-03-05
+  last_sale: '547.22'
+  market_cap: '58564761064'
+  name: Roper Technologies. Inc Common Stock
+ROST:
+  date: 2024-03-05
+  last_sale: '149.58'
+  market_cap: '50486473249'
+  name: Ross Stores. Inc Common Stock
+SBUX:
+  date: 2024-03-05
+  last_sale: '92.31'
+  market_cap: '104683212000'
+  name: Starbucks Corporation Common Stock
+SIRI:
+  date: 2024-03-05
+  last_sale: '4.20'
+  market_cap: '16023066515'
+  name: Sirius XM Holdings Inc Common Stock
+SNPS:
+  date: 2024-03-05
+  last_sale: '587.36'
+  market_cap: '90659765841'
+  name: Synopsys. Inc Common Stock
+SPLK:
+  date: 2024-03-05
+  last_sale: '156.22'
+  market_cap: '26323070000'
+  name: Splunk Inc Common Stock
+TEAM:
+  date: 2024-03-05
+  last_sale: '207.60'
+  market_cap: '53852851265'
+  name: Atlassian Corporation Class A Common Stock
+TMUS:
+  date: 2024-03-05
+  last_sale: '163.34'
+  market_cap: '193862949701'
+  name: T-Mobile US. Inc Common Stock
+TSLA:
+  date: 2024-03-05
+  last_sale: '183.91'
+  market_cap: '599186468678'
+  name: Tesla. Inc Common Stock
+TTD:
+  date: 2024-03-05
+  last_sale: '82.31'
+  market_cap: '40801778547'
+  name: The Trade Desk. Inc Class A Common Stock
+TTWO:
+  date: 2024-03-05
+  last_sale: '146.23'
+  market_cap: '24961909522'
+  name: Take-Two Interactive Software. Inc Common Stock
+TXN:
+  date: 2024-03-05
+  last_sale: '170.66'
+  market_cap: '156797566332'
+  name: Texas Instruments Incorporated Common Stock
+VRSK:
+  date: 2024-03-05
+  last_sale: '239.93'
+  market_cap: '34403534868'
+  name: Verisk Analytics. Inc Common Stock
+VRTX:
+  date: 2024-03-05
+  last_sale: '424.03'
+  market_cap: '109530263218'
+  name: Vertex Pharmaceuticals Incorporated Common Stock
+WBA:
+  date: 2024-03-05
+  last_sale: '20.58'
+  market_cap: '17747688346'
+  name: Walgreens Boots Alliance. Inc Common Stock
+WBD:
+  date: 2024-03-05
+  last_sale: '8.13'
+  market_cap: '19785863492'
+  name: Warner Bros Discovery. Inc Series A Common Stock
+WDAY:
+  date: 2024-03-05
+  last_sale: '273.02'
+  market_cap: '71804260000'
+  name: Workday. Inc Class A Common Stock
+XEL:
+  date: 2024-03-05
+  last_sale: '51.06'
+  market_cap: '28346253616'
+  name: Xcel Energy Inc Common Stock
+ZS:
+  date: 2024-03-05
+  last_sale: '211.44'
+  market_cap: '31775990588'
+  name: Zscaler. Inc Common Stock

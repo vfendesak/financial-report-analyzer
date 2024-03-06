@@ -8,7 +8,7 @@ from financial_report_analyzer.utils import load_tickers
 
 
 def main():
-    tickers = load_tickers()
+    tickers = load_tickers("nasdaq_tickers")
     sec_scraper = SECScraper()
 
     filings = {}
@@ -21,7 +21,7 @@ def main():
             filings[ticker] = {}
             continue
 
-    with open("filings.json", "w") as f:
+    with open("nasdaq_filings.json", "w") as f:
         json.dump(filings, f)
 
 
